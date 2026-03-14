@@ -1,2 +1,2 @@
 Git is a distributed version control system.
-These are my lab notes.
+These are my lab notes. Fixing a typo.
