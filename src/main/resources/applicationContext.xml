@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Constructor Injection -->
+    <bean id="studentConstructor" class="com.klu.model.Student">
+        <constructor-arg name="studentId" value="101" />
+        <constructor-arg name="name" value="John Doe" />
+        <constructor-arg name="course" value="Computer Science" />
+        <constructor-arg name="year" value="1" />
+    </bean>
+
+    <!-- Setter Injection -->
+    <bean id="studentSetter" class="com.klu.model.Student">
+        <property name="studentId" value="102" />
+        <property name="name" value="Jane Smith" />
+        <property name="course" value="Information Technology" />
+        <property name="year" value="2" />
+    </bean>
+
+</beans>
